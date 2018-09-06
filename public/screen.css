@@ -7,3 +7,18 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+li {
+  list-style-type: none;
+  margin: 20px 0;
+  align-items: center;
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
